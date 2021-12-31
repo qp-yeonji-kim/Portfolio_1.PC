@@ -1,0 +1,169 @@
+:root{
+	--color_red: #e4051f;
+	--color_blue: #014a94;
+	--color_skyblue: #9fbde6;
+}
+
+
+@font-face {
+	font-family: 'SF pro kr';
+	font-style: normal;
+	font-weight: 400;
+	src:url(../font/SFProKRDisplay_regular.woff2) format("woff2");
+}
+@font-face {
+	font-family: 'SF pro kr';
+	font-style: normal;
+	font-weight: 500;
+	src:url(../font/SFProKRDisplay_medium.woff2) format("woff2");
+}
+@font-face {
+	font-family: 'SF pro kr';
+	font-style: normal;
+	font-weight: 600;
+	src:url(../font/SFProKRDisplay_semibold.woff2) format("woff2");
+}
+@font-face {
+	font-family: 'SF pro kr';
+	font-style: normal;
+	font-weight: 700;
+	src:url(../font/SFProKRDisplay_bold.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: 'SF pro dp';
+	font-style: normal;
+	font-weight: 400;
+	src:url(../font/sf-pro-display_medium.woff2) format("woff2");
+}
+@font-face {
+	font-family: 'SF pro dp';
+	font-style: normal;
+	font-weight: 500;
+	src:url(../font/sf-pro-display_semibold.woff2) format("woff2");
+}
+@font-face {
+	font-family: 'SF pro dp';
+	font-style: normal;
+	font-weight: 700;
+	src:url(../font/sf-pro-display_bold.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: NtSansKR;
+	font-weight: 400;
+	font-style: normal;
+	src: url("../font/NotoSansKR-Regular.eot");
+	src: url("../font/NotoSansKR-Regular.eot#iefix") format("embedded-opentype"),
+		url("../font/NotoSansKR-Regular.woff") format("woff"),
+		url("../font/NotoSansKR-Regular.woff2") format("woff2"),
+		url("../font/NotoSansKR-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: NtSansKR;
+	font-weight: 500;
+	font-style: normal;
+	src: url("../font/NotoSansKR-Medium.eot");
+	src: url("../font/NotoSansKR-Medium.eot#iefix") format("embedded-opentype"),
+		url("../font/NotoSansKR-Medium.woff") format("woff"),
+		url("../font/NotoSansKR-Medium.woff2") format("woff2"),
+		url("../font/NotoSansKR-Medium.otf") format("opentype");
+}
+
+@font-face {
+	font-family: NtSansKR;
+	font-weight: 700;
+	font-style: normal;
+	src: url("../font/NotoSansKR-Bold.eot");
+	src: url("../font/NotoSansKR-Bold.eot#iefix") format("embedded-opentype"),
+		url("../font/NotoSansKR-Bold.woff") format("woff"),
+		url("../font/NotoSansKR-Bold.woff2") format("woff2"),
+		url("../font/NotoSansKR-Bold.otf") format("opentype");
+}
+
+.blind{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: none;
+  clip: (0, 0, 0, 0);
+  clip-path: (50%);
+  overflow: hidden;
+}
+
+.r_btn{
+	display: block;
+	position: relative;
+	width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 255, 255, .3);
+	border-radius: 50%;
+	overflow: hidden;
+	transition: all cubic-bezier(0.68, -0.6, 0.32, 1.6) .2s;
+}
+
+.r_btn:hover, .r_btn:active{
+	border: 1px solid #fff;
+}
+.r_btn i{
+	position: absolute;
+  left: 0;
+  top: 0;
+	display: inline-block;
+	vertical-align: top;
+	width: 42px;
+  height: 42px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.r_btn.more_btn i{
+  background-image: url('../images/i_right_w.svg');
+  background-size: 14px 9px;
+}
+
+.r_btn.more_btn i::after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -100%;
+  transform: translate(0, -50%);
+  width: 100%;
+  height: 100%;
+  background: url('../images/i_right_w.svg');
+	background-repeat: no-repeat;
+  background-size: 14px 9px;
+  background-position: center;
+}
+
+.privacy .accept_area .btn_area > a:hover span, header .input_wrap .form_input .search_btn:hover .txt, .main_vis .txt_area .more_btn:hover .link_label .txt, .main_vis .pagination_wrap .mainvis-button-play:hover i, .sc_news .title_area .btn_wrap:hover .txt{
+  animation: toUp .6s cubic-bezier(.19,1,.22,1) backwards;
+}
+header .input_wrap .form_input .search_btn:hover .r_btn i, footer .company_info .news_letter .more_btn:hover i, .main_vis .info_wrap .pagination_wrap .mainvis-button-next:hover i, .sc_innovation .content a:hover .more_btn i, .sc_news .title_area .btn_wrap:hover .r_btn i{
+	animation: toRight .6s cubic-bezier(.19,1,.22,1) backwards;
+}
+
+main .main_vis .info_wrap .pagination_wrap .mainvis-button-prev:hover i{
+	animation: toLeft .6s cubic-bezier(.19,1,.22,1) backwards;
+}
+
+@keyframes toUp {
+  100%{
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes toRight {
+  100%{
+    transform: translate(100%, 0%);
+  }
+}
+
+@keyframes toLeft {
+  100%{
+    transform: translate(-100%, 0%);
+  }
+}

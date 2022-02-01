@@ -353,6 +353,7 @@ header .input_wrap {
 }
 
 header .input_wrap .txt_wrap {
+  display: block;
   height: 50px;
 }
 
@@ -505,6 +506,7 @@ footer .company_info .news_letter {
 }
 
 footer .company_info .news_letter .txt_area {
+  display: block;
   padding-bottom: 120px;
 }
 

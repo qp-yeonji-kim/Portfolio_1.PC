@@ -4,82 +4,107 @@
 	--color_skyblue: #9fbde6;
 }
 
-
 @font-face {
-	font-family: 'SF pro kr';
+	font-family: 'SFProKR';
 	font-style: normal;
 	font-weight: 400;
-	src:url(../font/SFProKRDisplay_regular.woff2) format("woff2");
+	src:url('../font/SFProKRDisplay_Regular.eot');
+	src: url('../font/SFProKRDisplay_Regular.eot#iefix') format('embedded-opentype'),
+	url('../font/SFProKRDisplay_Regular.woff') format('woff'),
+	url('../font/SFProKRDisplay_Regular.woff2') format('woff2'),
+	url('../font/SFProKRDisplay_Regular.otf') format('opentype');	
 }
 @font-face {
-	font-family: 'SF pro kr';
+	font-family: 'SFProKR';
 	font-style: normal;
 	font-weight: 500;
-	src:url(../font/SFProKRDisplay_medium.woff2) format("woff2");
+	src:url('../font/SFProKRDisplay_Medium.eot');
+	src: url('../font/SFProKRDisplay_Medium.eot#iefix') format('embedded-opentype'),
+	url('../font/SFProKRDisplay_Medium.woff') format('woff'),
+	url('../font/SFProKRDisplay_Medium.woff2') format('woff2'),
+	url('../font/SFProKRDisplay_Medium.otf') format('opentype');	
 }
 @font-face {
-	font-family: 'SF pro kr';
+	font-family: 'SFProKR';
 	font-style: normal;
 	font-weight: 600;
-	src:url(../font/SFProKRDisplay_semibold.woff2) format("woff2");
+	src:url('../font/SFProKRDisplay_SemiBold.eot');
+	src: url('../font/SFProKRDisplay_SemiBold.eot#iefix') format('embedded-opentype'),
+	url('../font/SFProKRDisplay_SemiBold.woff') format('woff'),
+	url('../font/SFProKRDisplay_SemiBold.woff2') format('woff2'),
+	url('../font/SFProKRDisplay_SemiBold.otf') format('opentype');	
 }
 @font-face {
-	font-family: 'SF pro kr';
+	font-family: 'SFProKR';
 	font-style: normal;
 	font-weight: 700;
-	src:url(../font/SFProKRDisplay_bold.woff2) format("woff2");
+	src:url('../font/SFProKRDisplay_Bold.eot');
+	src: url('../font/SFProKRDisplay_Bold.eot#iefix') format('embedded-opentype'),
+	url('../font/SFProKRDisplay_Bold.woff') format('woff'),
+	url('../font/SFProKRDisplay_Bold.woff2') format('woff2'),
+	url('../font/SFProKRDisplay_Bold.otf') format('opentype');	
 }
-
 @font-face {
-	font-family: 'SF pro dp';
+	font-family: 'SFProDP';
 	font-style: normal;
 	font-weight: 400;
-	src:url(../font/sf-pro-display_medium.woff2) format("woff2");
+	src:url('../font/SFProDisplay-Medium.eot');
+	src: url('../font/SFProDisplay-Medium.eot#iefix') format('embedded-opentype'),
+	url('../font/SFProDisplay-Medium.woff') format('woff'),
+	url('../font/SFProDisplay-Medium.woff2') format('woff2'),
+	url('../font/SFProDisplay-Medium.otf') format('opentype');
 }
 @font-face {
-	font-family: 'SF pro dp';
+	font-family: 'SFProDP';
 	font-style: normal;
 	font-weight: 500;
-	src:url(../font/sf-pro-display_semibold.woff2) format("woff2");
+	src:url('../font/SFProDisplay-SemiBold.eot');
+	src: url('../font/SFProDisplay-SemiBold.eot#iefix') format('embedded-opentype'),
+	url('../font/SFProDisplay-SemiBold.woff') format('woff'),
+	url('../font/SFProDisplay-SemiBold.woff2') format('woff2'),
+	url('../font/SFProDisplay-SemiBold.otf') format('opentype');
 }
 @font-face {
-	font-family: 'SF pro dp';
+	font-family: 'SFProDP';
 	font-style: normal;
 	font-weight: 700;
-	src:url(../font/sf-pro-display_bold.woff2) format("woff2");
+	src:url('../font/SFProDisplay-Bold.eot');
+	src: url('../font/SFProDisplay-Bold.eot#iefix') format('embedded-opentype'),
+	url('../font/SFProDisplay-Bold.woff') format('woff'),
+	url('../font/SFProDisplay-Bold.woff2') format('woff2'),
+	url('../font/SFProDisplay-Bold.otf') format('opentype');
 }
-
 @font-face {
 	font-family: NtSansKR;
 	font-weight: 400;
 	font-style: normal;
-	src: url("../font/NotoSansKR-Regular.eot");
-	src: url("../font/NotoSansKR-Regular.eot#iefix") format("embedded-opentype"),
-		url("../font/NotoSansKR-Regular.woff") format("woff"),
-		url("../font/NotoSansKR-Regular.woff2") format("woff2"),
-		url("../font/NotoSansKR-Regular.otf") format("opentype");
+	src: url('../font/NotoSansKR-Regular.eot');
+	src: url('../font/NotoSansKR-Regular.eot#iefix') format('embedded-opentype'),
+		url('../font/NotoSansKR-Regular.woff') format('woff'),
+		url('../font/NotoSansKR-Regular.woff2') format('woff2'),
+		url('../font/NotoSansKR-Regular.otf') format('opentype');
 }
 
 @font-face {
 	font-family: NtSansKR;
 	font-weight: 500;
 	font-style: normal;
-	src: url("../font/NotoSansKR-Medium.eot");
-	src: url("../font/NotoSansKR-Medium.eot#iefix") format("embedded-opentype"),
-		url("../font/NotoSansKR-Medium.woff") format("woff"),
-		url("../font/NotoSansKR-Medium.woff2") format("woff2"),
-		url("../font/NotoSansKR-Medium.otf") format("opentype");
+	src: url('../font/NotoSansKR-Medium.eot');
+	src: url('../font/NotoSansKR-Medium.eot#iefix') format('embedded-opentype'),
+		url('../font/NotoSansKR-Medium.woff') format('woff'),
+		url('../font/NotoSansKR-Medium.woff2') format('woff2'),
+		url('../font/NotoSansKR-Medium.otf') format('opentype');
 }
 
 @font-face {
 	font-family: NtSansKR;
 	font-weight: 700;
 	font-style: normal;
-	src: url("../font/NotoSansKR-Bold.eot");
-	src: url("../font/NotoSansKR-Bold.eot#iefix") format("embedded-opentype"),
-		url("../font/NotoSansKR-Bold.woff") format("woff"),
-		url("../font/NotoSansKR-Bold.woff2") format("woff2"),
-		url("../font/NotoSansKR-Bold.otf") format("opentype");
+	src: url('../font/NotoSansKR-Bold.eot');
+	src: url('../font/NotoSansKR-Bold.eot#iefix') format('embedded-opentype'),
+		url('../font/NotoSansKR-Bold.woff') format('woff'),
+		url('../font/NotoSansKR-Bold.woff2') format('woff2'),
+		url('../font/NotoSansKR-Bold.otf') format('opentype');
 }
 
 .blind{

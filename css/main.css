@@ -713,9 +713,3 @@ main .sc_outcome {
 .sc_service .sub_txt p.on {
   display: block;
 }
-
-@keyframes grow_width{
-  100%{
-    width: 
-  }
-}

@@ -4,7 +4,7 @@
 
 body {
   min-width: 1680px;
-  font-family: 'SF pro kr', 'SF pro dp', NtSansKR;
+  font-family: SFProKR, SFProDP, NtSansKR;
   font-size: 16px;
   line-height: 1.2;
   color: #1e283b;
@@ -209,7 +209,7 @@ header .menu_wrap .lang {
   display: flex;
   padding-left: 40px;
   color: #fff;
-  transform: opacity .8s;
+  transition: opacity .8s;
 }
 
 header .menu_wrap .lang>a {
@@ -231,7 +231,7 @@ header .menu_wrap .gnb {
   font-size: 28px;
   font-weight: 400;
   line-height: 1.8;
-  transform: opacity .8s;
+  transition: opacity .8s;
 }
 
 header .menu_wrap .gnb li {

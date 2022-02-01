@@ -453,11 +453,6 @@ footer .logo_area .logo {
   background-size: contain;
 }
 
-footer .logo_area .logo a {
-  display: block;
-  height: 100%;
-}
-
 footer .company_info {
   position: relative;
   width: calc(100% - 480px);

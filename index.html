@@ -130,13 +130,13 @@
         </div>
         <div class="input_area">
           <div class="input_wrap">
-            <div class="txt_wrap">
+            <label for="search_txt" class="txt_wrap">
               <p>검색하기</p>
-            </div>
+            </label>
             <form action="/" method="get" class="form_input">
               <fieldset>
                 <legend class="blind">검색</legend>
-                <input type="text" class="search_txt" placeholder="검색어를 입력하세요.">
+                <input type="text" class="search_txt" id="search_txt" placeholder="검색어를 입력하세요.">
                 <a href="" class="search_btn">
                   <div class="txt_wrap">
                     <span class="txt" data-hover="Search">Search</span>
@@ -612,11 +612,7 @@
   <footer>
     <div class="footer_area">
       <div class="logo_area">
-        <h2 class="logo">
-          <a href="">
-            <span class="blind">대한 항공</span>
-          </a>
-        </h2>
+        <p class="logo"></p>
       </div>
       <div class="company_info">
         <div class="company_info_wrap">
@@ -649,16 +645,16 @@
             </ul>
           </div>
           <div class="news_letter">
-            <div class="txt_area">
+            <label for="email" class="txt_area">
               <p class="title">구독 서비스</p>
               <p class="sub">대한항공의 다양한 소식을 받아볼 수 있습니다.
               </p>
-            </div>
+            </label>
             <div class="subscribe">
               <form action="/" class="emailform">
                 <fieldset>
                   <legend class="blind">구독할 이메일 입력</legend>
-                  <input type="email" class="email" placeholder="Email">
+                  <input type="email" class="email" placeholder="Email" id="email">
                   <button type="submit" class="r_btn more_btn">
                     <span class="blind">구독 버튼</span>
                     <i></i>
